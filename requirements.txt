@@ -1,0 +1,8 @@
+appdirs==1.4.3
+attrs==18.2.0
+Click==7.0
+flup==1.0.3
+psycopg2==2.7.5
+SQLAlchemy==1.2.13
+toml==0.10.0
+web.py
