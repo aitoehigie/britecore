@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 
-from app import app
+from code import app
 
 wsgiapp = app.wsgifunc()
