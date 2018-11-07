@@ -1,4 +1,4 @@
-$def with ()
+$def with (page)
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -21,11 +21,8 @@ $def with ()
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <form method="POST" action=".">
-    <input type="text" name="name" /> <br />
-    <input type="text" name="age" /> <br />
-    <input type="submit" value="Submit" />
-    </form>
+
+    $:page
     <script src="" async defer></script>
 </body>
 
