@@ -2,7 +2,9 @@ appdirs==1.4.3
 attrs==18.2.0
 Click==7.0
 flup==1.0.3
+gunicorn==19.9.0
 psycopg2==2.7.5
+psycopg2-binary==2.7.5
 SQLAlchemy==1.2.13
 toml==0.10.0
-web.py
+web.py==0.39

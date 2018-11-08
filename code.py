@@ -3,24 +3,25 @@
 import web
 from urls import urls
 import config
-
-
-render = web.template.render("templates/")
+from config import render
 
 app = web.application(urls, globals())
 
-class index:
+class Index:
     def GET(self):
-        return render.base()
+        name = "ehigie aito"
+        return render.index(name)
 
     def POST(self):
         data = web.input()
         name, age = data.name, data.age
         pass
 
-class about:
+class About:
     def GET(self):
-        return "About me"
+        context = {}
+        context["string"] = "About me"
+        return render.about(context)
 
 if __name__ == "__main__":
     app.run()

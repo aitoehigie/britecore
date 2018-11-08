@@ -1,0 +1,3 @@
+CREATE TABLE britecore (
+id INT AUTO_INCREMENT,
+

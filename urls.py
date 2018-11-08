@@ -1,5 +1,5 @@
 urls = (
-"/", "index",
-"/about", "about"
+"/", "Index",
+"/about", "About"
 )
 
